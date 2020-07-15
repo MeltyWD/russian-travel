@@ -1,0 +1,6 @@
+.lead__image-container {
+  --lead_A: calc(100vw * 0.390625);
+  --lead_B: calc(var(--lead_A) - 352px);
+  padding: 0 var(--lead_B);
+}
+

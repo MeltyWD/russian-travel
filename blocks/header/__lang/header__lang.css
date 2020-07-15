@@ -1,0 +1,12 @@
+.header__lang {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-bottom: 6px;
+}
+.header__lang li:not(:last-child) {
+  margin-right: 18px;
+}

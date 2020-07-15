@@ -1,0 +1,27 @@
+/* Извиняюсь за странную реализацию. */
+/* Числа взял из расчетов на Excel от общего производного для двух значений ширины */
+
+/* от 320px до 768px */
+@media all and (max-width: 768px) {
+  .padding-size {
+    --padding_A: calc(100vw * 0.01785713);
+    --padding_B: calc(var(--padding_A) + 10.28572px);
+    padding: 0 var(--padding_B);
+  }
+}
+/* от 768px до 1024px */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .padding-size {
+    --padding_A: calc(100vw * 0.09374999);
+    --padding_B: calc(var(--padding_A) - 47.99999px);
+    padding: 0 var(--padding_B);
+  }
+}
+/* от 1024px до 1280px */
+@media all and (min-width: 1024px) {
+  .padding-size {
+    --padding_A: calc(100vw * 0.390625);
+    --padding_B: calc(var(--padding_A) - 352px);
+    padding: 0 var(--padding_B);
+  }
+}

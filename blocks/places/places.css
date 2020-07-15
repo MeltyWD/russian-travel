@@ -1,0 +1,9 @@
+@import url(./__list/places_list.css);
+
+
+/* Простите за костыль */
+@media all and (max-width: 692px) {
+  .places {
+    padding: 0;
+  }
+}
