@@ -1,8 +1,10 @@
-.place__paragraph:not(:last-child) {
+.place__paragraph {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.67;
+}
+.place__paragraph:not(:last-child) {
   margin-bottom: 24px;
 }
 
