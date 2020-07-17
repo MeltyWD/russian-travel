@@ -1,4 +1,4 @@
 .cover__text-box {
-  position: absolute;
   pointer-events: none;
+  z-index: 1;
 }

@@ -7,6 +7,6 @@
   list-style-type: none;
   padding-bottom: 6px;
 }
-.header__lang li:not(:last-child) {
+.header__lang .header__lang-list:not(:last-child) {
   margin-right: 18px;
 }

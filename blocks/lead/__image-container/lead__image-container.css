@@ -1,6 +1,12 @@
 .lead__image-container {
+  margin: 0;
   --lead_A: calc(100vw * 0.390625);
   --lead_B: calc(var(--lead_A) - 352px);
   padding: 0 var(--lead_B);
 }
 
+@media all and (min-width: 1280px) {
+  .lead__image-container {
+    padding: 0 148px;
+  }
+}

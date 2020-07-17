@@ -18,10 +18,15 @@
   }
 }
 /* от 1024px до 1280px */
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1024px) and (max-width: 1279px) {
   .padding-size {
     --padding_A: calc(100vw * 0.390625);
     --padding_B: calc(var(--padding_A) - 352px);
     padding: 0 var(--padding_B);
+  }
+}
+@media all and (min-width: 1280px) {
+  .padding-size {
+    padding: 0 148px;
   }
 }

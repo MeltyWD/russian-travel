@@ -1,12 +1,9 @@
+@import url(./__list/photo-grid__list.css);
 @import url(./__item/photo-grid__item.css);
 
 
 .photo-grid {
   padding: 92px 48px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(281px, 1fr));
-  grid-auto-rows: minmax(max-content, 1fr);
-  grid-gap: 14px;
 }
 @media all and (max-width: 319px) {
   .photo-grid {

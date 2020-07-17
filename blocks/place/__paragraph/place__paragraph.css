@@ -4,7 +4,7 @@
   font-size: 18px;
   line-height: 1.67;
 }
-.place__paragraph p:not(:last-child) {
+.place__paragraph .place__paragraph-margin:not(:last-child) {
   margin-bottom: 24px;
 }
 
