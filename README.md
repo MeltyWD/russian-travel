@@ -1,5 +1,5 @@
 # Проект 3: Путешествие по России
-https://meltywd.github.io/russian-travel/
+https://meltywd.github.io/russian-travel/index.html
 
 ### Проектная работа 3 спринта Яндекс.Практикума.
 * Интро
