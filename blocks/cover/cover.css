@@ -6,11 +6,8 @@
 .cover {
   position: relative;
   margin: 92px 0;
-  height: 62.5vw;
-  max-height: 740px;
   width: 100%;
 }
-
 
 @media all and (max-width: 692px) {
   .cover {
