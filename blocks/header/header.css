@@ -1,5 +1,6 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang/header__lang.css);
+@import url(./__lang-list/header__lang-list.css);
 @import url(./__lang-link/header__lang-link.css);
 
 @import url(./__lang-link/_selected/header__lang-link_selected.css);
@@ -10,6 +11,7 @@
   padding: 28px 48px 0;
   justify-content: space-between;
 }
+
 @media all and (max-width: 767px) {
   .header {
     padding: 16px 16px 0;
