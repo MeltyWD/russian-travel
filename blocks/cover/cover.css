@@ -5,28 +5,24 @@
 
 .cover {
   position: relative;
-  margin: 92px 0;
+  display: flex;
+  margin: 92px auto;
   width: 100%;
+  max-width: 1184px;
 }
 
 @media all and (max-width: 692px) {
   .cover {
-    margin: 64px 0;
+    margin: 64px auto;
   }
 }
 @media all and (min-width: 693px) and (max-width: 1023px) {
   .cover {
-    margin: 88px 0;
-  }
-}
-@media all and (min-width: 1024px) and (max-width: 1279px) {
-  .cover {
-    margin: 92px 0;
+    margin: 88px auto;
   }
 }
 @media all and (min-width: 1280px) {
   .cover {
-    margin: 92px 48px;
-    width: calc(100% - 96px);
+    margin: 92px auto;
   }
 }
