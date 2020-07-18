@@ -11,16 +11,10 @@
   z-index: 1;
 }
 
-@media all and (max-width: 692px) {
+@media all and (max-width: 767px) {
   .cover__subtitle {
-    max-width: 100%;
-    margin: 16px 16px 10.3125vw;
+    margin: 16px auto 0;
     font-size: calc(0.9375vw + 11px);
     line-height: 1.14;
-  }
-}
-@media all and (min-width: 1280px) {
-  .cover__subtitle {
-    margin: 32px auto 245px;
   }
 }

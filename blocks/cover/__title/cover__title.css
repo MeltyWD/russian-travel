@@ -7,19 +7,13 @@
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
+  white-space: pre-wrap;
   z-index: 1;
 }
 
-@media all and (max-width: 692px) {
+@media all and (max-width: 767px) {
   .cover__title {
-    max-width: 79.375vw;
-    font-size: 10vw;
+    font-size: calc(8.928125vw + 3.43px);
     line-height: 1.09;
-    margin: 10.3125vw auto 0;
-  }
-}
-@media all and (min-width: 1280px) {
-  .cover__title {
-    margin: 245px auto 0;
   }
 }

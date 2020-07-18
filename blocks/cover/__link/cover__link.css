@@ -29,9 +29,9 @@
   opacity: 0.8;
   cursor: pointer;
 }
-@media all and (min-width: 1023px) and (max-width: 1279px) {
+@media all and (min-width: 1025px) and (max-width: 1279px) {
   .cover__link {
-    min-height: calc(62.5vw - 7.5vw);
+    min-height: calc(100vw * 0.390625 + 240px);
   }
 }
 @media all and (min-width: 1280px) {
